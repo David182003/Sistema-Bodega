@@ -162,6 +162,43 @@ footer{
 .container_home, .container_producto , .container_clientes{
     padding: 10%;
 }
+.td_cliente{
+    grid-area: cliente;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.td_fecha{
+    grid-area: fecha;
+    color: #8d8d8d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.td_precio{
+    background-color: var(--blanco);
+    grid-area: precio;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.Movimiento_title{
+    padding: 6% 5% 0% 2%;
+}
+.tr_movimientos{
+    display: grid;
+    grid-template-areas: 
+    "cliente cliente precio"
+    "fecha fecha precio";
+    margin-bottom: 5px;
+    padding-bottom: 2%;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+.container_movimientos{
+
+    margin-top: 1%;
+    padding: 5% 2%;
+}
+.movimientos_table{
+    width: 100%;
+}
 
 
 /* Estilos para la versión móvil */
