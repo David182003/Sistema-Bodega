@@ -9,6 +9,7 @@
     --colorshadow:rgba(73, 121, 255, 0.418);
     --parrafos:sans-serif;
     --colorcircle:#00d9ff;
+    color: rgb(27, 0, 46);
 }
 *{
     box-sizing: border-box;
@@ -18,6 +19,7 @@
 }
 body{
     background-color: var(--blanco);
+    col
 }
 header{
     background-color: var(--ColorYape);
