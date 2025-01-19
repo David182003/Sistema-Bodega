@@ -8,7 +8,7 @@
     --ColorYape:  rgb(75, 0, 75);
     --colorshadow:rgba(158, 184, 255, 0.322);
     --parrafos:sans-serif;
-    --colorcircle:#00d9ff;
+    --colorcircle:rgb(75, 0, 75);
     color: rgb(27, 0, 46);
 }
 *{
@@ -20,6 +20,7 @@
 body{
     background-color: var(--ColorYape);
 }
+
 header{
     background-color: var(--ColorYape);
     height: 32vh;
@@ -39,7 +40,7 @@ main{
 .saldo{
     display: flex;
     box-shadow: 0px 0px 10px var(--colorshadow);
-    padding: 3% 2%;
+    padding: 5% 2%;
     border-radius: 6px;
 }
 .saldo_txt{
@@ -54,8 +55,8 @@ main{
 .saldo .saldo_num{
     display: flex;
     width: 50%;
-    padding: 0% 0% 0% 5%;
-    align-items: center;
+    padding: 0% 5% 0% 5%;
+    text-align: right;
     justify-content: end;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -123,7 +124,7 @@ footer{
     position: fixed;
     border: 1px solid rgb(217, 207, 255);
     width: 100%;
-    height: 60px;
+    height: 67px;
     bottom: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -133,9 +134,8 @@ footer{
     scale: 0.9;
 }
 .txt_Home , .txt_Producto, .txt_Clientes{
-    font-size: 12px;
+    font-size: 13px;
     color: var(--ColorYape);
-    font-family: cursive;
 }
 .container_home, .container_producto , .container_clientes{
     padding: 10%;
