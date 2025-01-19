@@ -22,7 +22,6 @@ body{
 }
 
 header{
-    background-color: var(--ColorYape);
     height: 30vh;
 }
 nav{
@@ -171,8 +170,32 @@ footer{
     height: 67px;
     bottom: 0px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
+}
+.button_qr , .button_venta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_qr, .btn_venta{
+    width: 90%;
+    height: 70%;
+    border-color: #d6d6d6;
+    border-radius: 5px;
+}
+.btn_qr{
+    background-color: white;
+}
+.btn_venta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: white;
+}
+.img_money{
+    width: 20%;
 }
 .bx-home-alt , .bx-cube-al, .bxs-user-account{
     scale: 0.9;
