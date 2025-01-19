@@ -181,20 +181,20 @@ footer{
 .btn_qr, .btn_venta{
     width: 90%;
     height: 70%;
-    border-color: #d6d6d6;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px var(--colorshadow);
     border-radius: 5px;
 }
 .btn_qr{
     background-color: white;
 }
 .btn_venta{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
     background-color: white;
 }
-.img_money{
+.img_money , .img_QR{
     width: 20%;
 }
 .bx-home-alt , .bx-cube-al, .bxs-user-account{
