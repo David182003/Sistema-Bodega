@@ -23,7 +23,7 @@ body{
 
 header{
     background-color: var(--ColorYape);
-    height: 32vh;
+    height: 30vh;
 }
 nav{
     display: grid;
@@ -54,6 +54,12 @@ main{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+.a_home{
+    text-decoration: none;
+}
+.img_Home{
+    width: 40%;
+}
 .saldo .saldo_num{
     display: flex;
     width: 40%;
@@ -71,7 +77,6 @@ main{
     align-items: center;
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 .vista{
     display: flex;
@@ -86,7 +91,6 @@ main{
 .vista_img{
     width: 15%;
 }
-
 ul{
     display: flex;
     width: 100%;
@@ -174,8 +178,10 @@ footer{
     scale: 0.9;
 }
 .txt_Home , .txt_Producto, .txt_Clientes{
-    font-size: 13px;
     color: var(--ColorYape);
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 .container_home, .container_producto , .container_clientes{
     padding: 10%;
@@ -190,7 +196,6 @@ footer{
     color: #8d8d8d;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 .td_precio{
     background-color: var(--blanco);
     grid-area: precio;
@@ -208,10 +213,9 @@ footer{
     "fecha fecha precio";
     margin-bottom: 5px;
     padding-bottom: 2%;
-    border-bottom: 1px solid rgb(214, 214, 214);
+    border-bottom: 1px solid rgb(218, 218, 218);
 }
 .container_movimientos{
-
     margin-top: 1%;
     padding: 5% 2%;
 }
