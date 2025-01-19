@@ -33,8 +33,8 @@ nav{
 main{
     background-color: var(--blanco);
     height: 60vh;
-    border-radius: 15px 15px 0px 0px;
     padding: 5%;
+    border-radius: 15px 15px 0px 0px;
 }
 .saldo{
     display: flex;
@@ -85,6 +85,12 @@ img{
     display: grid;
     padding: 0% 0% 0% 5%;
 }
+.qr{
+    margin-top: 10%;
+}
+.qr_img{
+    width: 100%;
+}
 .Hi{
     display: flex;
     font-family: Arial;
@@ -111,14 +117,20 @@ img{
     color: var(--blanco);
     background-color: var(--black);
 }
+
 footer{
     background-color: var(--blanco);
     position: fixed;
     border: 1px solid rgb(217, 207, 255);
     width: 100%;
     height: 60px;
-    text-align: center;
     bottom: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+.container_home, .container_producto , .container_clientes{
+    padding: 10%;
 }
 
 /* Estilos para la versión móvil */
