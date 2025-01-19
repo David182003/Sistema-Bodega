@@ -35,6 +35,7 @@ main{
     background-color: var(--blanco);
     height: 60vh;
     padding: 5%;
+    margin-top: 5%;
     border-radius: 15px 15px 0px 0px;
 }
 .saldo{
@@ -62,13 +63,30 @@ main{
     justify-content: end;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.movimientos_txt{
+    display: flex;
+    width: 80%;
+    color: var(--ColorYape);
+    padding: 0% 0% 0% 1%;
+    align-items: center;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
 .vista{
     display: flex;
     width: 60%;
 }
+.container_title_movimientos{
+    display: flex;padding-left: 1%;
+}
+.img_movimientos{
+    width: 10%;
+}
 .vista_img{
     width: 15%;
 }
+
 ul{
     display: flex;
     width: 100%;
@@ -164,6 +182,7 @@ footer{
 }
 .td_cliente{
     grid-area: cliente;
+    font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .td_fecha{
@@ -198,6 +217,7 @@ footer{
 }
 .movimientos_table{
     width: 100%;
+    padding-top: 3%;
 }
 
 
