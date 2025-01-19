@@ -22,7 +22,7 @@ body{
 }
 
 header{
-    height: 30vh;
+    height: auto;
 }
 nav{
     display: grid;
@@ -34,7 +34,6 @@ main{
     background-color: var(--blanco);
     height: 60vh;
     padding: 5%;
-    margin-top: 5%;
     border-radius: 15px 15px 0px 0px;
 }
 .saldo{
@@ -57,7 +56,7 @@ main{
     text-decoration: none;
 }
 .img_Home{
-    width: 40%;
+    width: 90%;
 }
 .saldo .saldo_num{
     display: flex;
@@ -246,7 +245,23 @@ footer{
     width: 100%;
     padding-top: 3%;
 }
-
+.container_option{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+.container_option_one{
+    width: 50px;
+    height: 50px;
+    border-radius: 12%;
+    padding: 2%;
+    background-color: white;
+}
+.op{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 /* Estilos para la versión móvil */
 @media (max-width: 768px) {
